@@ -4,5 +4,5 @@ package proto.foo.v1;
 
 message Foo {
   string name = 1;
-  string address = 3;
+  string address = 2;
 }
