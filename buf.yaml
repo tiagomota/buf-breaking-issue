@@ -1,0 +1,13 @@
+version: v2
+modules:
+  - path: proto/
+    lint:
+      use:
+        - DEFAULT
+      except:
+        - ENUM_NO_ALLOW_ALIAS
+        - BASIC
+    breaking:
+      use:
+        - WIRE
+        - FILE_NO_DELETE
