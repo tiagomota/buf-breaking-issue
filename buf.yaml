@@ -11,3 +11,5 @@ modules:
       use:
         - WIRE
         - FILE_NO_DELETE
+      ignore:
+        - proto/foo/foo.proto
